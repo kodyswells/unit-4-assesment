@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortune">Get your fortune</button>
+    <div>
+      <form>
+        <input type="text" id="newFortuneInput" placeholder="Enter your new fortune here">
+        <button id="addFortuneButton">Add Fortune</button>
+      </form>
+      <form>
+        <select id="fortuneSelect" placeholder="Select Your Fortune to Edit">
+        </select>
+        <input type="text" id="updateFortuneInput" placeholder="Updated fortune text">
+        <button id="updateFortuneButton">Update Fortune</button>
+        <button id="deleteFortuneButton">Delete Fortune</button>
+      </form>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
